@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto 1fr  auto;
+    
+}
+
+header {
+
+    background-color: #273272;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+51,7db9e8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #1e5799 0%, #2989d8 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #1e5799 0%,#2989d8 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #1e5799 0%,#2989d8 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    grid-column: 1/ span 12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+h1{
+    color: #F1FCFC;
+    font-size: 3em;
+}
+.img-soc{
+    width: 25px;
+}
+.img-soc:hover{
+    filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%);
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav {
+    grid-column: 1/ span 12;
+    background-color: #F1FCFC;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+position: sticky;
+top: 0;
+z-index: 99;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    color: #707070;
+    margin-right: 25px;
+}
+nav ul li a:hover {
+    color: #900202;
+}
+ 
+
+.img_logo{
+    width: 70px;
+    height:auto;
+}
+
+
+section{
+    grid-column: 1/ span 12;
+    margin-top: 10px;
+}
+section p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.8em;
+    color: #2989d8;
+    
+}
+section p span {
+    display: block;
+    font-size: 1.8em;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+#img1{
+    display: block;
+    width: 360px;
+    height: auto;
+    margin: 10px auto ;
+}
+#img1:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+main {
+    margin-top: 10px;
+    grid-column: 1/ span 12;
+}
+.one p, .one b{
+    font-size: 1.4em;
+}
+
+.header {
+    text-align: center;
+    margin: 10px auto;
+}
+.header h2{
+    display: inline-block;
+    font-size: 2.4em;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b7deed+0,71ceef+50,21b4e2+51,b7deed+100;Shape+1+Style */
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border-radius:5%;
+}
+.header > p{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+hr{
+    width: 8em;
+    margin: 10px auto;
+    border: 3px solid rgb(108, 7, 109);
+    border-radius: 5px;
+}
+.about{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#img2{
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
+        
+}
+.para{
+    text-align: justify;
+    margin: 10px;
+}
+
+.button {
+    text-align: center;
+    margin: 25px auto ;
+}
+.button a{
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+background: #bfd255; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+   text-decoration: none;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 50%;
+   color: #fff;
+   
+}
+
+.bars{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info >span{
+    font-weight: 500;
+}
+.line{
+height: 5px;
+width: 100%;
+background-color: lightgray;
+position: relative;
+
+}
+
+.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top:0;
+    left:0;
+    background: #21b4e2;
+}
+
+.html::before{
+    width: 80%;
+}
+.css::before{
+    width: 75%;
+}
+.wordpress::before{
+    width: 65%;
+}
+.git::before{
+    width: 60%;
+}
+.sass::before{
+    width: 55%;
+}
+
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact-content .left p {
+    text-align: justify ;
+}
+.contact-content .left .icons {
+    margin: 10px 0;
+}
+.contact-content .row {
+    display: flex;
+    height: 50px;
+    align-items: center;
+
+}
+.contact-content .row .info{
+margin-left: 20px;
+}
+.contact-content  .info .head{
+    font-weight: 500;
+}
+.contact-content  .info .sub-title{
+    color: #333;
+}
+
+.fas img{
+    width: 20px;
+}
+
+
+.right form .fields{
+    display: flex;
+}
+.right form .field,
+.right form .fields .filed{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.right form .name{
+    margin-right: 10px;
+}
+.right form .email{
+    margin-left: 10px;
+}
+.right form .field input,
+.right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+}
+.right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.right form .button{
+    height: 47px;
+    width: 170px;
+}
+.right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    background: blue;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.right form .button button:hover{
+    color: blue;
+    background: none;
+}
+
+footer {
+    margin-top: 10px;
+    grid-column: 1/ span 12;
+    background-color: #5386EA;
+}
+
+footer div {
+    padding: 20px;
+}
+
+
+@media (min-width: 720px) {
+    
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listU {
+    width: 200px;
+}       
+h1{
+    margin-left: 10px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.para{
+    width: 50%;
+    margin:20px;
+}
+
+.contact-content .left{
+    max-width: 480px;
+}
+
+
+
+    }
+
+
+
+    @media (min-width: 1020px) {
+        #img1{
+            width: 460px;
+        } 
+     
+
+
+
+
+
+
+
+        }
