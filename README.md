@@ -1,2 +1,2 @@
-# portfolio-website
-create portfolio website with html and css
+# portfolio-website responsive
+create portfolio website with html and css responsive
